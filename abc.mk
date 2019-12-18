@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Include DU common configuration
-include vendor/du/config/common_full_phone.mk
+include vendor/nexus/config/common_full_phone.mk
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/google/bonito/aosp_bonito.mk)
@@ -22,7 +22,7 @@ $(call inherit-product, device/google/bonito/aosp_bonito.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
-PRODUCT_NAME := du_bonito
+PRODUCT_NAME := abc_bonito
 PRODUCT_DEVICE := bonito
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Pixel 3a XL
