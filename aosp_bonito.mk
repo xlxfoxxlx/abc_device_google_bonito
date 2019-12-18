@@ -27,7 +27,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PACKAGES += \
     PhotoTable \
-    WallpaperPicker \
     WAPPushManager \
 
 # STOPSHIP deal with Qualcomm stuff later
