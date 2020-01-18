@@ -1,11 +1,11 @@
 [
  {
-   "repository":  "ezio84/abc_device_google_bonito-sepolicy",
+   "repository":  "skittles9823/abc_device_google_bonito-sepolicy",
    "target_path": "device/google/bonito-sepolicy",
    "branch":      "q"
  },
  {
-   "repository":  "ezio84/abc_kernel_google_bluecross",
+   "repository":  "skittles9823/abc_kernel_google_bluecross",
    "target_path": "kernel/google/bluecross",
    "branch":      "q"
  },
