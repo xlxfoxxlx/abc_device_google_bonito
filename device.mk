@@ -26,6 +26,10 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/sdm845 \
     vendor/google/interfaces
 
+# ADB key
+PRODUCT_COPY_FILES += \
+    device/google/bonito/adbkey.pub:root/adb_keys
+
 PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true
 
